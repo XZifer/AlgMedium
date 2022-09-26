@@ -15,7 +15,7 @@ namespace MaxContadoresPruebas
             int[] obtenido;
             int[] esperado = { 3, 2, 2, 4, 2 };
             //Act = Actuar o realizar la prueba unitaria
-            obtenido = AlgMaxContadores.ContadorMaximo(A_evaluada);
+            obtenido = AlgMaxContadores.ContadorMaximo(N,A_evaluada);
             //Assert = Verificar que la prueba cumplio con la condicion
             Assert.AreEqual(obtenido, esperado);
         }
