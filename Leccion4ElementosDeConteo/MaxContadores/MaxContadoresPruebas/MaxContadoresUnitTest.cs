@@ -1,11 +1,23 @@
+using MaxContadoresBiblioteca;
+
 namespace MaxContadoresPruebas
 {
     [TestClass]
     public class MaxContadoresUnitTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Prueba3446144Regresa4()
         {
+            //Arrange = Arreglar o adecuar la prueba unitaria
+            Algoritmo AlgMaxContadores = new Algoritmo();
+            int N = 5;
+            int[] A_evaluada = { 3, 4, 4, 6, 1, 4, 4 };
+            int[] obtenido;
+            int[] esperado = { 3, 2, 2, 4, 2 };
+            //Act = Actuar o realizar la prueba unitaria
+            obtenido = AlgMaxContadores.ContadorMaximo(A_evaluada);
+            //Assert = Verificar que la prueba cumplio con la condicion
+            Assert.AreEqual(obtenido, esperado);
         }
     }
 }
