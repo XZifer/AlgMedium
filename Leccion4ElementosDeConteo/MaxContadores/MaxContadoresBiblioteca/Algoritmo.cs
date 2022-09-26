@@ -5,28 +5,57 @@
         //N = Numero de Contadores
         public int[] ContadorMaximo(int N, int[] A)
         {
-            int[] Contador = new int[N];
-            foreach (int op in A)
+            #region version1
+            //int[] Contador = new int[N];
+            //foreach (int op in A)
+            //{
+            //    for (int i = 0; i < Contador.Length; i++)
+            //    {
+            //        if (op == i +1 )
+            //        {
+            //            Contador[i]++;
+            //            i = Contador.Length;
+            //        }
+            //        else if (op > N)
+            //        {
+            //            int max = Contador.Max();
+            //            for (int c = 0; c < Contador.Length; c++)
+            //            {
+            //                Contador[c] = max;
+            //            }
+            //            i = Contador.Length;
+            //        }
+            //    }
+            //}
+            //return Contador;
+            #endregion
+            int[] result = new int[N];
+            int maxCounter = 0;
+            int groupMaxCounter = 0;
+
+            for (int x = 0; x < A.Length; x++)
             {
-                for (int i = 0; i < Contador.Length; i++)
+                if (A[x] == N + 1)
                 {
-                    if (op == i +1 )
+                    groupMaxCounter = maxCounter;
+                }
+                else
+                {
+                    int index = A[x] - 1;
+                    result[index] = result[index] < groupMaxCounter ? groupMaxCounter + 1 : ++result[index];
+                    if (result[index] > maxCounter)
                     {
-                        Contador[i]++;
-                        i = Contador.Length;
-                    }
-                    else if (op > N)
-                    {
-                        int max = Contador.Max();
-                        for (int c = 0; c < Contador.Length; c++)
-                        {
-                            Contador[c] = max;
-                        }
-                        i = Contador.Length;
+                        maxCounter = result[index];
                     }
                 }
+
             }
-            return Contador;
+
+            for (int y = 0; y < result.Length; y++)
+                result[y] = result[y] < groupMaxCounter ? groupMaxCounter : result[y];
+
+            return result;
+        
         }
     }
 }
