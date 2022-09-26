@@ -13,7 +13,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MaxContadoresBiblioteca", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MaxContadoresPruebas", "MaxContadoresPruebas", "{FBC86FEC-1009-417A-89FA-F1BF6D8FC75E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxContadoresBiblioteca", "Leccion4ElementosDeConteo\MaxContadores\MaxContadoresBiblioteca\MaxContadoresBiblioteca.csproj", "{A0F13FE7-C165-444C-A390-A648C47ED461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxContadoresAlgoritmo", "Leccion4ElementosDeConteo\MaxContadores\MaxContadoresAlgoritmo\MaxContadoresAlgoritmo.csproj", "{9AE3F82B-FA29-4089-A0D3-06C5FDA3F7A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxContadoresPruebas", "Leccion4ElementosDeConteo\MaxContadores\MaxContadoresPruebas\MaxContadoresPruebas.csproj", "{BB89D9E3-560D-4121-B1C5-7A517CE60806}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0F13FE7-C165-444C-A390-A648C47ED461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F13FE7-C165-444C-A390-A648C47ED461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F13FE7-C165-444C-A390-A648C47ED461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F13FE7-C165-444C-A390-A648C47ED461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AE3F82B-FA29-4089-A0D3-06C5FDA3F7A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE3F82B-FA29-4089-A0D3-06C5FDA3F7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE3F82B-FA29-4089-A0D3-06C5FDA3F7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE3F82B-FA29-4089-A0D3-06C5FDA3F7A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB89D9E3-560D-4121-B1C5-7A517CE60806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB89D9E3-560D-4121-B1C5-7A517CE60806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB89D9E3-560D-4121-B1C5-7A517CE60806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB89D9E3-560D-4121-B1C5-7A517CE60806}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -22,6 +46,9 @@ Global
 		{C2C9CCD7-D34A-4F0D-88B9-6CA63D4E5CE5} = {2FB08538-2455-45D5-85F0-A49C563E9344}
 		{A8F08375-EF23-4545-9A4F-4364DCD1BC6C} = {2FB08538-2455-45D5-85F0-A49C563E9344}
 		{FBC86FEC-1009-417A-89FA-F1BF6D8FC75E} = {2FB08538-2455-45D5-85F0-A49C563E9344}
+		{A0F13FE7-C165-444C-A390-A648C47ED461} = {A8F08375-EF23-4545-9A4F-4364DCD1BC6C}
+		{9AE3F82B-FA29-4089-A0D3-06C5FDA3F7A6} = {C2C9CCD7-D34A-4F0D-88B9-6CA63D4E5CE5}
+		{BB89D9E3-560D-4121-B1C5-7A517CE60806} = {FBC86FEC-1009-417A-89FA-F1BF6D8FC75E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5FDE98E3-0BDD-4641-84AA-750582A12F08}
