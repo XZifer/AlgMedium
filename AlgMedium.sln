@@ -13,11 +13,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MaxContadoresBiblioteca", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MaxContadoresPruebas", "MaxContadoresPruebas", "{FBC86FEC-1009-417A-89FA-F1BF6D8FC75E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxContadoresBiblioteca", "Leccion4ElementosDeConteo\MaxContadores\MaxContadoresBiblioteca\MaxContadoresBiblioteca.csproj", "{A0F13FE7-C165-444C-A390-A648C47ED461}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxContadoresBiblioteca", "Leccion4ElementosDeConteo\MaxContadores\MaxContadoresBiblioteca\MaxContadoresBiblioteca.csproj", "{A0F13FE7-C165-444C-A390-A648C47ED461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxContadoresAlgoritmo", "Leccion4ElementosDeConteo\MaxContadores\MaxContadoresAlgoritmo\MaxContadoresAlgoritmo.csproj", "{9AE3F82B-FA29-4089-A0D3-06C5FDA3F7A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxContadoresAlgoritmo", "Leccion4ElementosDeConteo\MaxContadores\MaxContadoresAlgoritmo\MaxContadoresAlgoritmo.csproj", "{9AE3F82B-FA29-4089-A0D3-06C5FDA3F7A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxContadoresPruebas", "Leccion4ElementosDeConteo\MaxContadores\MaxContadoresPruebas\MaxContadoresPruebas.csproj", "{BB89D9E3-560D-4121-B1C5-7A517CE60806}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxContadoresPruebas", "Leccion4ElementosDeConteo\MaxContadores\MaxContadoresPruebas\MaxContadoresPruebas.csproj", "{BB89D9E3-560D-4121-B1C5-7A517CE60806}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MissingInteger", "MissingInteger", "{FC32DE34-327C-493D-A256-0448A853A5BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MissingIntegerAlgoritm", "MissingIntegerAlgoritm", "{0B04E50D-5BF8-4CC1-AD58-D5DF0A97AF95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MissingIntegerLibrary", "MissingIntegerLibrary", "{56077AD0-DCD7-44CA-ABE4-A94C06DD69DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MissingIntegerTest", "MissingIntegerTest", "{5C82FD23-DCF9-498A-84BE-4A7242B967F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingIntegerLibrary", "Leccion4ElementosDeConteo\MissingInteger\MissingIntegerLibrary\MissingIntegerLibrary.csproj", "{8E4A26DA-81E8-4AF1-9E29-F3FC840315F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingIntegerAlgoritm", "Leccion4ElementosDeConteo\MissingInteger\MissingIntegerAlgoritm\MissingIntegerAlgoritm.csproj", "{B5B095CF-4A83-40DA-AEBB-F02642849EF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingIntegerTest", "Leccion4ElementosDeConteo\MissingInteger\MissingIntegerTest\MissingIntegerTest.csproj", "{6AA39623-ED3D-4B4A-B160-E712284D28AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +51,18 @@ Global
 		{BB89D9E3-560D-4121-B1C5-7A517CE60806}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB89D9E3-560D-4121-B1C5-7A517CE60806}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB89D9E3-560D-4121-B1C5-7A517CE60806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E4A26DA-81E8-4AF1-9E29-F3FC840315F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E4A26DA-81E8-4AF1-9E29-F3FC840315F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E4A26DA-81E8-4AF1-9E29-F3FC840315F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E4A26DA-81E8-4AF1-9E29-F3FC840315F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B095CF-4A83-40DA-AEBB-F02642849EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B095CF-4A83-40DA-AEBB-F02642849EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B095CF-4A83-40DA-AEBB-F02642849EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B095CF-4A83-40DA-AEBB-F02642849EF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA39623-ED3D-4B4A-B160-E712284D28AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA39623-ED3D-4B4A-B160-E712284D28AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA39623-ED3D-4B4A-B160-E712284D28AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA39623-ED3D-4B4A-B160-E712284D28AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +75,13 @@ Global
 		{A0F13FE7-C165-444C-A390-A648C47ED461} = {A8F08375-EF23-4545-9A4F-4364DCD1BC6C}
 		{9AE3F82B-FA29-4089-A0D3-06C5FDA3F7A6} = {C2C9CCD7-D34A-4F0D-88B9-6CA63D4E5CE5}
 		{BB89D9E3-560D-4121-B1C5-7A517CE60806} = {FBC86FEC-1009-417A-89FA-F1BF6D8FC75E}
+		{FC32DE34-327C-493D-A256-0448A853A5BF} = {2B0B52C7-EA34-4AED-96E2-932ED1862D86}
+		{0B04E50D-5BF8-4CC1-AD58-D5DF0A97AF95} = {FC32DE34-327C-493D-A256-0448A853A5BF}
+		{56077AD0-DCD7-44CA-ABE4-A94C06DD69DF} = {FC32DE34-327C-493D-A256-0448A853A5BF}
+		{5C82FD23-DCF9-498A-84BE-4A7242B967F6} = {FC32DE34-327C-493D-A256-0448A853A5BF}
+		{8E4A26DA-81E8-4AF1-9E29-F3FC840315F3} = {56077AD0-DCD7-44CA-ABE4-A94C06DD69DF}
+		{B5B095CF-4A83-40DA-AEBB-F02642849EF9} = {0B04E50D-5BF8-4CC1-AD58-D5DF0A97AF95}
+		{6AA39623-ED3D-4B4A-B160-E712284D28AD} = {5C82FD23-DCF9-498A-84BE-4A7242B967F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5FDE98E3-0BDD-4641-84AA-750582A12F08}
