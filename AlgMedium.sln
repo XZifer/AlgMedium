@@ -27,11 +27,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MissingIntegerLibrary", "Mi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MissingIntegerTest", "MissingIntegerTest", "{5C82FD23-DCF9-498A-84BE-4A7242B967F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingIntegerLibrary", "Leccion4ElementosDeConteo\MissingInteger\MissingIntegerLibrary\MissingIntegerLibrary.csproj", "{8E4A26DA-81E8-4AF1-9E29-F3FC840315F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MissingIntegerLibrary", "Leccion4ElementosDeConteo\MissingInteger\MissingIntegerLibrary\MissingIntegerLibrary.csproj", "{8E4A26DA-81E8-4AF1-9E29-F3FC840315F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingIntegerAlgoritm", "Leccion4ElementosDeConteo\MissingInteger\MissingIntegerAlgoritm\MissingIntegerAlgoritm.csproj", "{B5B095CF-4A83-40DA-AEBB-F02642849EF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MissingIntegerAlgoritm", "Leccion4ElementosDeConteo\MissingInteger\MissingIntegerAlgoritm\MissingIntegerAlgoritm.csproj", "{B5B095CF-4A83-40DA-AEBB-F02642849EF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingIntegerTest", "Leccion4ElementosDeConteo\MissingInteger\MissingIntegerTest\MissingIntegerTest.csproj", "{6AA39623-ED3D-4B4A-B160-E712284D28AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MissingIntegerTest", "Leccion4ElementosDeConteo\MissingInteger\MissingIntegerTest\MissingIntegerTest.csproj", "{6AA39623-ED3D-4B4A-B160-E712284D28AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Leccion5SumasDePrefijo", "Leccion5SumasDePrefijo", "{67B321FD-AC31-4FE4-A5C2-CF49D5DF07BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CountDiv", "CountDiv", "{442FA568-908B-4E5F-9C5D-2C8123C87E0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -82,6 +86,7 @@ Global
 		{8E4A26DA-81E8-4AF1-9E29-F3FC840315F3} = {56077AD0-DCD7-44CA-ABE4-A94C06DD69DF}
 		{B5B095CF-4A83-40DA-AEBB-F02642849EF9} = {0B04E50D-5BF8-4CC1-AD58-D5DF0A97AF95}
 		{6AA39623-ED3D-4B4A-B160-E712284D28AD} = {5C82FD23-DCF9-498A-84BE-4A7242B967F6}
+		{442FA568-908B-4E5F-9C5D-2C8123C87E0E} = {67B321FD-AC31-4FE4-A5C2-CF49D5DF07BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5FDE98E3-0BDD-4641-84AA-750582A12F08}
