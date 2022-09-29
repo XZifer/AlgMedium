@@ -7,32 +7,23 @@ namespace MissingIntegerLibrary
         public int MissingInt(int[] A)
         {
             int[] B;
-            int missing = 1;
             int index;
             A.Distinct().ToArray();
             B = A.OrderBy(x => x).ToArray();
             index = Array.IndexOf(B, 1);
-            if (index != -1)
+            if (index == -1)
             {
-                for (int i = index; i < B.Length; i++)
+                return 1;
+            }
+            for (int i = index; i < B.Length; i++)
+            {
+                if (i == B.Length - 1 
+                 || B[i + 1] - B[i] > 1)
                 {
-                    if (i == B.Length -1)
-                    {
-                        missing = B[i] + 1;
-                        return missing;
-                    }
-                    else if (B[i + 1] - B[i] > 1)
-                    {
-                        missing = B[i] + 1;
-                        return missing;
-                    }
+                    return B[i] + 1;
                 }
             }
-            else
-            {
-                missing = 1;
-            }
-            return missing;
+            return 0;
         }
     }
 }
