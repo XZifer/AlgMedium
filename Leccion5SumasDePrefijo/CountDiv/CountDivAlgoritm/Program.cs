@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using CountDivLibrary;
+
+Algoritm alg = new();
+int resultado = alg.CountDivisible(6, 11, 2);
+Console.WriteLine(resultado);
