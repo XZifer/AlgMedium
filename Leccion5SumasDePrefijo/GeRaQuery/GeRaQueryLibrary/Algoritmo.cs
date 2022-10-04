@@ -4,31 +4,68 @@
     {
         public int[] FactMin(string S, int[] P, int[] Q)
         {
-            int index = 0;
-            string subs;
-            int[] factsImp = new int[P.Length];
-            for (int i = 0; i < P.Length; i++)
+            var nucleo = new int[S.Length + 1, 4];
+            for (var count = 0; count < S.Length; count++)
             {
-                subs = S.Substring(P[i], Q[i] - P[i] +1);
-                if (subs.Contains("A"))
+                if (count > 0)
                 {
-                    factsImp[index] = 1;
+                    for (var index = 0; index < 4; index++)
+                    {
+                        nucleo[count + 1, index] += nucleo[count, index];
+                    }
                 }
-                 else if (subs.Contains("C"))
+                switch (S[count])
                 {
-                    factsImp[index] = 2;
+                    case 'A':
+                        nucleo[count + 1, 0]++;
+                        break;
+                    case 'C':
+                        nucleo[count + 1, 1]++;
+                        break;
+                    case 'G':
+                        nucleo[count + 1, 2]++;
+                        break;
+                    case 'T':
+                        nucleo[count + 1, 3]++;
+                        break;
                 }
-                else if (subs.Contains("G"))
+            }
+
+            var result = new int[P.Length];
+            for (var count = 0; count < P.Length; count++)
+            {
+                if (P[count] == Q[count])
                 {
-                    factsImp[index] = 3;
+                    switch (S[P[count]])
+                    {
+                        case 'A':
+                            result[count] = 1;
+                            break;
+                        case 'C':
+                            result[count] = 2;
+                            break;
+                        case 'G':
+                            result[count] = 3;
+                            break;
+                        case 'T':
+                            result[count] = 4;
+                            break;
+                    }
                 }
                 else
                 {
-                    factsImp[index] = 4;
+                    for (var index = 0; index < 4; index++)
+                    {
+                        if ((nucleo[Q[count] + 1, index] - nucleo[P[count], index]) > 0)
+                        {
+                            result[count] = index + 1;
+                            break;
+                        }
+                    }
                 }
-                index++;
             }
-            return factsImp;
+
+            return result;
         }
     }
 }
